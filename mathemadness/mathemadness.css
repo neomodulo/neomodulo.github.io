@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "PTS";
+	src: url("../assets/PTSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "TI-84";
+	src: url("assets/ti-calculator-font.ttf")
+}
+
+#header {
+	text-align: center;
+	border-style: groove;
+	border-color: rgb(190,210,190);
+	font-family: "PTS";
+	text-decoration: none;
+	color: black;
+}
+
+#sidenav {
+	font-family: "TI-84";
+	text-align:center;
+	margin: left;
+	border: 15px solid rgb(210,230,210);
+	background-color: rgb(190,210,190);
+	border-radius: 5px;
+	#position: fixed;
+	overflow: auto;
+	line-height: 120%;
+}
+
+body {
+	background-image: linear-gradient(to right, #d1ffd1, #c4e9f5);
+	font-family: "PTS";
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+div {
+	#border: 1px solid #000000;
+}
