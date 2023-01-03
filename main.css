@@ -1,0 +1,14 @@
+@font-face {
+	font-family: "PTS";
+	src: url("assets/PTSans-Regular.ttf");
+}
+
+body {
+	background-image: linear-gradient(to right, #d1ffd1, #c4e9f5);
+	font-family: "PTS";
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
